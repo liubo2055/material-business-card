@@ -296,8 +296,24 @@
 
   <cutme>
     <!-- Only this website Scripts -->
-    <script src="https://buttons.github.io/buttons.js"></script>
     <script src="./js/main.js"></script>
+    <script async src="https://buttons.github.io/buttons.js"></script>
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>    
   </cutme>
 
   <!-- Github Floating Buttons -->
@@ -308,6 +324,10 @@
       data-size="large" data-show-count="true" aria-label="Star thomaswangio/material-business-card on GitHub">Star</a>
     <a class="github-button" href="https://github.com/thomaswangio" data-size="large" data-show-count="true" aria-label="Follow @thomaswangio on GitHub">Follow
       @thomaswangio</a>
+    <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?text=Check%20out%20this%20Material%20HTML5%20Business%20Card%20%F0%9F%91%94%20by%20%40thomaswangio"
+      data-size="large">
+    Tweet</a>    
   </div>
 
 </body>
