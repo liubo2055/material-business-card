@@ -1,15 +1,10 @@
 # Material Business Card
 
-[![Materialize](https://img.shields.io/badge/CSS-Materialize-pink.svg)](http://materializecss.com)
-[![CSS Guidelines](https://img.shields.io/badge/CSS-CSS%20Guidelines-blue.svg)](https://cssguidelin.es)
-
 This is a HTML business card template perfect for personal websites. Includes picture, name, heading, summary, social buttons, and contact buttons.
 
 ## Live
 
 Curently live at [https://thomaswangio.github.io/material-business-card/](https://thomaswangio.github.io/material-business-card/).
-
-![screenshot](images/screenshot.png)
 
 ## Deployment
 
