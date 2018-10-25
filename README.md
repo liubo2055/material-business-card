@@ -2,10 +2,6 @@
 
 This is a HTML business card template perfect for personal websites. Includes picture, name, heading, summary, social buttons, and contact buttons.
 
-## Live
-
-Curently live at [https://thomaswangio.github.io/material-business-card/](https://thomaswangio.github.io/material-business-card/).
-
 ## Deployment
 
 Hosted on Github Pages. [Get your own page](https://pages.github.com/)!
